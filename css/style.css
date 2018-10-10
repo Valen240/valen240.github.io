@@ -1,0 +1,72 @@
+/*
+Colors used
+
+Background color: #fafaff
+Primary color: #2B3D41
+Secondary color: #4c5f6b
+Ternary color #a85751
+
+Detail color: #f1ab86
+*/
+body {
+  background-color: #fafaff;
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+}
+
+a {
+  color: #2B3D41;
+}
+
+a:visited {
+  /* visited link */
+  color: #2B3D41;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none; /* No underlining when hovering over a link */
+}
+
+a:active {
+  /* selected link */
+  color: #4c5f6b;
+}
+
+.button {
+  /* overwrite browser defaults */
+  border: none; /* reset the border */
+  font-family: inherit; /* takes the font from the outer container */
+
+  /* style button */
+  background-color: #4c5f6b;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #4c5f6b; /* width of the border, type, color */
+  transition: 0.2s opacity;
+}
+
+.button:hover{
+  opacity: 0.8;
+}
+
+.button-secondary {
+  background-color: #4c5f6b;
+}
