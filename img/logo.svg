@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Group Copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-542.000000, -141.000000)">
+            <g id="Group-Copy" transform="translate(542.000000, 141.000000)">
+                <circle id="Oval" fill="#235789" fill-rule="nonzero" cx="75" cy="75" r="75"></circle>
+                <path d="M65.45,58.625 L65.45,60.75 L46.825,60.75 L46.825,75.05 L62.325,75.05 L62.325,77.125 L46.825,77.125 L46.825,91.875 L65.45,91.875 L65.45,94 L44.25,94 L44.25,58.625 L65.45,58.625 Z M78.575,58.625 L80.6,58.625 C80.8333345,58.625 81.0249993,58.6874994 81.175,58.8125 C81.3250008,58.9375006 81.4416663,59.099999 81.525,59.3 L93.575,88.65 C93.8916683,89.4166705 94.149999,90.233329 94.35,91.1 C94.5333342,90.1999955 94.7749985,89.383337 95.075,88.65 L107.1,59.3 C107.183334,59.1166657 107.304166,58.958334 107.4625,58.825 C107.620834,58.691666 107.816665,58.625 108.05,58.625 L110.05,58.625 L95.45,94 L93.175,94 L78.575,58.625 Z" id="E-V" fill="#A85751"></path>
+            </g>
+        </g>
+    </g>
+</svg>
