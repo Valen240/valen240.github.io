@@ -7,6 +7,7 @@ Secondary color: #4c5f6b
 Ternary color #a85751
 
 Detail color: #f1ab86
+Link color #235789
 */
 
 :root {
@@ -14,6 +15,7 @@ Detail color: #f1ab86
   --main-txt-color: #2b3d41;
   --scnd-txt-color: #4c5f6b;
   --header-color: #a85751;
+  --link-color: #235789;
 }
 
 body {
@@ -21,6 +23,7 @@ body {
   font-family: 'Roboto Slab', serif;
   font-size: 16px;
   line-height: 1.6;
+  text-align: center;
 }
 
 img {
@@ -29,11 +32,11 @@ img {
 
 h1, h2, h3 {
   font-family: 'Lato', sans-serif;
+    text-align: center;
 }
 
 h1 {
   font-size: 30px;
-  text-align: center; /* Centers text */
   color: var(--header-color);
 }
 
@@ -45,14 +48,18 @@ h3 {
   font-size: 18px;
 }
 
+p {
+  text-align: center;
+}
 a {
-  color: var(--main-txt-color);
+  text-decoration: none;
+  color: var(--link-color);
 }
 
-a:visited {
+/* a:visited {*/
   /* visited link */
-  color: var(--main-txt-color);
-}
+/*  color: var(--main-txt-color);
+}*/
 
 a:hover,
 a:focus {
@@ -106,6 +113,7 @@ button, .button {
   margin-right: 1%;
   float: left;
   text-align: center; /* Centers text */
+  vertical-align: top;
 }
 
 .navigation {
@@ -167,4 +175,8 @@ button, .button {
 
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
+}
+
+.project-details{
+  display: none;
 }
