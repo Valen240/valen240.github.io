@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Behance Logo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-820.000000, -141.000000)">
+            <g id="Behance-Logo" transform="translate(820.000000, 141.000000)">
+                <circle id="Oval-Copy" fill="#1373E6" fill-rule="nonzero" cx="75" cy="75" r="75"></circle>
+                <text id="Bē" font-family="AvenirNext-Medium, Avenir Next" font-size="80" font-weight="400" fill="#FFFFFF">
+                    <tspan x="28" y="103">Bē</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
