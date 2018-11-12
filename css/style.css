@@ -100,13 +100,14 @@ button, .button {
 }
 
 .wrapper {
-  width: 100%;
-  max-width: 1000px;
-  margin: 50px auto; /*No spacing on top and bottom and auto spacing to left and right*/
-  padding: 0 20px;
+
 }
 
+.content  {
+    width: 100%;
+    margin: 50px auto; /*No spacing on top and bottom and auto spacing to left and right*/
 
+}
 
 .column-3 {
   font-size: 16px;
@@ -125,21 +126,29 @@ button, .button {
 .navigation {
   list-style-type: none;
   padding: 0;
-  float: left;
-  margin: 45px 0;
+  float: right;
 
 }
 
 .welcomesection {
+margin: 30vh 0;
+}
+
+.aboutimg {
+  background: linear-gradient(rgba(250, 250, 255, .6), rgba(250, 250, 255, .6)),
+  url("../img/me.jpg");
 
 }
 
 .aboutsection {
-  margin: 100px;
+  margin: auto;
+  max-width: 1000px;
+  padding: 350px 0;
+
 }
 
 .contactsection {
-  margin: 100px;
+  padding: 350px 0 100px 0;
 }
 
 nav {
@@ -151,6 +160,10 @@ nav {
   margin-left: 10px;
 }
 
+.projects {
+  margin-top:100px;
+  overflow: hidden;
+}
 
 @media all and (max-width: 500px) {
   .logo {
@@ -167,7 +180,7 @@ nav {
     margin-right: 1%;
   }
 }
-
+/*
 @keyframes color-change {
     0% {fill: #edc655;}
     50% {fill: #fcffad;}
@@ -195,6 +208,7 @@ nav {
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
+*/
 
 .project-details{
   display: none;
@@ -204,11 +218,18 @@ nav {
   width: 35px;
   height: 35px;
   display: inline-block;
-  margin: 0 auto;
+  margin: 0 20px;
+}
+
+.behance{
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  margin: 0 20px;
 }
 
 #about  {
-  magin: 50px;
+
 }
 #contact  {
   clear: both;
@@ -218,9 +239,12 @@ header {
   position: fixed;
   width: 100%;
   text-align: right;
+  top: 0;
+  padding: 15px;
+  background: rgba(250, 250, 255, 0.8);
 }
 
 header img {
-  width: 100px;
+  width: 50px;
   float: left;
 }
