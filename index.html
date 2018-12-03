@@ -16,8 +16,9 @@
       <a href="index.html"><img src="img/logo.svg" class="logo" alt="logo"></a>
       <nav>
         <ul class="navigation">
-          <li><a href="index.html">Home</a></li>
+          <li class="homelink"><a href="index.html">Home</a></li>
           <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -25,7 +26,7 @@
     <div class="content">
       <div class="welcomesection">
         <?xml version="1.0" encoding="UTF-8"?>
-        <svg width="379px" height="215px" viewBox="0 0 229 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg width="379px" height="215px" viewBox="0 0 232 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
           <title>Group 3</title>
           <desc>Created with Sketch.</desc>
@@ -44,8 +45,8 @@
           </g>
         </svg>
       </div>
-      <div class="aboutimg">
         <div class="aboutsection" id="about">
+          <div class="aboutsectiontextblock">
           <h1>About Me</h1>
           <p>I am a computer scientist who recently discovered user experience design. Initially, I thought I was going to become a software engineer, but when I learned that my curiosity could be used for something greater, I chose to be a user
             experience designer.</p>
@@ -55,37 +56,38 @@
             for about 10 years during which I met Yo-Yo Ma (a world famous cellist).</p>
           <br>
           <a href="files/cv.pdf" class="button" download>Download my resume</a>
-          <div class="projects">
-            <!--this will be the container that “contains” the 4 columns-->
-            <div class="column-3 project">
-              <!-- this will be the first column-->
-              <div class="project-preview">
-                <img src="img/AssistMe.png" alt="Work Sample 1">
-              </div>
-              <p class="project-details">Assist Me is a mobile application I designed that allows people to connect with an expert. Sometimes people don&#39;t have the patience to search for things. This app allows a person to ask a question and
-                they are connected to an expert who has the answer.</p>
-            </div><!-- this will end the first column-->
-
-            <div class="column-3 project">
-              <!-- this will be the second column-->
-              <div class="project-preview">
-                <img src="img/GoodCompany.png" alt="Work Sample 2">
-              </div>
-              <p class="project-details">I was tasked with coming up with an idea to use technology to help solve social issues amongst senior citizens living in a living facility. The result was Good Company, an application that helped seniors get
-                to know newcomers and thus reduce social isolation. I was the core designer.</p>
-            </div><!-- this will end the second column-->
-
-            <div class="column-3 project">
-              <!-- this will be the third column-->
-              <div class="project-preview">
-                <img src="img/PerfectProperties.png" alt="Work Sample 3">
-              </div>
-              <p class="project-details">A responsive web application, Perfect Properties gives the user the ability to more easily see a smart property investment they would potentially make. With a heavy focus on UI design, I used grids for each
-                breakpoint to design the mobile, tablet, and desktop screens.</p>
-            </div><!-- this will end the third column-->
-          </div><!-- this will close the container-->
         </div>
       </div>
+      <div class="projects" id="projects">
+        <h1>Projects</h1>
+        <!--this will be the container that “contains” the 4 columns-->
+        <div class="column-3 project">
+          <!-- this will be the first column-->
+          <div class="projectcards">
+            <a href="assistme.html"><img src="img/AssistMe.png" alt="Work Sample 1"></a>
+          </div>
+          <p>Assist Me is a mobile application I designed that allows people to connect with an expert. Sometimes people don&#39;t have the patience to search for things. This app allows a person to ask a question and
+            they are connected to an expert who has the answer.</p>
+        </div><!-- this will end the first column-->
+
+        <div class="column-3 project">
+          <!-- this will be the second column-->
+          <div class="projectcards">
+            <a href="goodcompany.html"><img src="img/GoodCompany.png" alt="Work Sample 2"></a>
+          </div>
+          <p>I was tasked with coming up with an idea to use technology to help solve social issues amongst senior citizens living in a living facility. The result was Good Company, an application that helped seniors get
+            to know newcomers and thus reduce social isolation. I was the core designer.</p>
+        </div><!-- this will end the second column-->
+
+        <div class="column-3 project">
+          <!-- this will be the third column-->
+          <div class="projectcards">
+            <a href="perfectproperties.html"><img src="img/PerfectProperties.png" alt="Work Sample 3"></a>
+          </div>
+          <p>A responsive web application, Perfect Properties gives the user the ability to more easily see a smart property investment they would potentially make. With a heavy focus on UI design, I used grids for each
+            breakpoint to design the mobile, tablet, and desktop screens.</p>
+        </div><!-- this will end the third column-->
+      </div><!-- this will close the container-->
       <div class="contactsection" id="contact">
         <h1>Contact Me</h1>
         <div>
