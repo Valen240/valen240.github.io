@@ -92,6 +92,12 @@ button,
   transition: 0.2s opacity;
 }
 
+.title {
+  width: 379px;
+  height: 215px;
+  margin: 0 auto;
+}
+
 .button:hover {
   opacity: 0.8;
 }
@@ -200,6 +206,11 @@ button,
   .logo {
     /* Make logo smaller by changing it's height */
     height: 50px;
+  }
+
+  .title {
+    padding: 0 15px;
+    margin: 0 auto;
   }
 
   .navigation > li.homelink {
