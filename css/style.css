@@ -202,6 +202,12 @@ button,
   opacity: 0.8;
 }
 
+.projectpage {
+  margin: auto;
+  max-width: 1000px;
+  padding: 350px 0;
+}
+
 @media only screen and (max-width: 640px) {
   .logo {
     /* Make logo smaller by changing it's height */
