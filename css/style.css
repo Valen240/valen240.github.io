@@ -16,6 +16,7 @@ Link color #235789
   --scnd-txt-color: #4c5f6b;
   --header-color: #a85751;
   --link-color: #235789;
+  --hover-link-color: #cddad6;
 }
 
 body {
@@ -68,6 +69,7 @@ a {
 
 a:hover,
 a:focus {
+  color: var(--hover-link-color);
   text-decoration: none; /* No underlining when hovering over a link */
 }
 
