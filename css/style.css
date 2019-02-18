@@ -142,9 +142,9 @@ button,
   margin-top: 50px;
 }
 
-.column-3:nth-child(3) {
+/*.column-3:nth-child(3) {
   margin-right: 0;
-}
+}*/
 
 .navigation {
   list-style-type: none;
