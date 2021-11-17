@@ -19,6 +19,10 @@ Link color #235789
   --hover-link-color: #cddad6;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--main-bg-color);
   font-family: 'Roboto Slab', serif;
